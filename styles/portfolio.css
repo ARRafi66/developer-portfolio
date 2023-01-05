@@ -3,9 +3,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary {
+/* .text-primary {
     color: #FD6E0A;
-}
+} */
+
 
 .btn-primary {
     color: #FFFFFF;
@@ -29,12 +30,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
-}
-
-.nav-title {
-    font-weight: 800;
-    font-size: 45px;
+    padding: 50px 200px;
 }
 
 nav ul {
@@ -44,7 +40,14 @@ nav ul {
 
 nav li {
     list-style: none;
-    margin-left: 50px;
+    margin-left: 20px;
+}
+nav h2{
+    font-size: 79px;
+}
+nav span{
+    color: #FD6E0A;
+    font-size: 80px;
 }
 
 /* Banner Styles */
@@ -52,6 +55,10 @@ nav li {
     display: flex;
     align-items: center;
     margin: 0 200px;
+}
+.banner img{
+    width: 40rem;
+    padding-left: 20px;
 }
 .banner-title{
     font-weight: 700;
@@ -66,6 +73,10 @@ nav li {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+}
+.section{
+    margin-top: 130px;
+    gap: 24px;
 }
 /* main section */
 .main{
@@ -82,9 +93,9 @@ nav li {
     text-align: center;
 }
 .section-title{
-    
+    text-align: center;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 60px;
     margin-bottom: 30px;
 }
 .section-description{
@@ -105,3 +116,20 @@ nav li {
     font-size: 20px;
     color: #474747;
 }
+/* What I DO styles */
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skills-container{
+    display: flex;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+/* Resume Styles */
